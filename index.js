@@ -1,8 +1,9 @@
-'use strict';
- 
-import React, {
+"use strict";
+
+import React, { PropTypes } from "react";
+
+import  {
 	StyleSheet,
-	PropTypes,
 	View,
 	Text,
 	TouchableOpacity,
@@ -10,7 +11,7 @@ import React, {
 	TouchableWithoutFeedback,
 	PixelRatio,
 	Platform,
-} from 'react-native';
+} from "react-native";
 
 class PopContent extends React.Component{
 
